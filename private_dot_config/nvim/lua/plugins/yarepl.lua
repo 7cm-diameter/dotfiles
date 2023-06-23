@@ -14,8 +14,8 @@ return {
         else
           return " python"
         end
-      elseif ft == "R" then
-        if vim.fn.executabe "radian"  == 1 then
+      elseif ft == "R" or ft == "r" then
+        if vim.fn.executable "radian"  == 1 then
           return " radian"
         else
           return " R"
@@ -32,7 +32,7 @@ return {
       scroll_to_bottom_after_sending = true,
 
       metas = {
-        radian = { cmd = 'radian', formatter = yarepl.formatter.bracketed_pasting },
+        radian = { cmd = 'radian --no-history', formatter = yarepl.formatter.bracketed_pasting },
         ipython = { cmd = 'poetry run ipython --no-autoindent', formatter = yarepl.formatter.bracketed_pasting },
         python = { cmd = 'poetry run python', formatter = yarepl.formatter.trim_empty_lines },
         R = { cmd = 'R', formatter = yarepl.formatter.trim_empty_lines },
