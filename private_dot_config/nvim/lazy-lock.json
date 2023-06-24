@@ -1,7 +1,9 @@
 {
   "coc.nvim": { "branch": "master", "commit": "2a0e5546ac287398b6ec52d425a5cbecbb72e37e" },
+  "diffview.nvim": { "branch": "main", "commit": "b3a763f8c7810b352226c95faa7d3ac9fb93b8d9" },
   "lazy.nvim": { "branch": "main", "commit": "67af46a7f53e06322753cdd8cfd524bbb8ca30a2" },
   "lualine.nvim": { "branch": "master", "commit": "05d78e9fd0cdfb4545974a5aa14b1be95a86e9c9" },
+  "nvim-highlight-colors": { "branch": "main", "commit": "8d7e7fe540b404ec06a248d6e5797eaf3362420c" },
   "nvim-surround": { "branch": "main", "commit": "10b20ca7d9da1ac8df8339e140ffef94f9ab3b18" },
   "nvim-treesitter": { "branch": "master", "commit": "e3330c67f1296b8fc42f652e95515e35c25bce1f" },
   "nvim-web-devicons": { "branch": "master", "commit": "14b3a5ba63b82b60cde98d0a40319d80f25e8301" },
