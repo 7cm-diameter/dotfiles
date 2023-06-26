@@ -12,8 +12,8 @@ alias el "exa -l"
 alias ea "exa -a"
 alias eal "exa -la"
 alias tree "e -T"
-alias fcd "cd (fd --type d --hidden | fzf --height 40% --border)"
-alias opj "cd (fd --type d --hidden | fzf --height 40% --border) && v"
+alias fcd "cd (fd --type d --hidden . $HOME | fzf --height 40% --border)"
+alias opj "cd (fd --type d --hidden . $HOME | fzf --height 40% --border) && v"
 
 # exec exa -l and venv_exists just after cd
 function cd
