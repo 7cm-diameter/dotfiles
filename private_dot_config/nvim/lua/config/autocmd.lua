@@ -6,9 +6,3 @@ autocmd("BufEnter", {
   pattern = "*",
   command = "set fo-=c fo-=r fo-=o",
 })
-
--- Start with insert mode when terminal is opened.
-autocmd({ 'TermOpen' }, {
-  pattern = '*',
-  command = 'startinsert',
-})

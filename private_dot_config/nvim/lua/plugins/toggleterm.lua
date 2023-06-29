@@ -4,8 +4,7 @@ return {
   "akinsho/toggleterm.nvim",
   config = function ()
     require("toggleterm").setup({
-      -- set("n", "<leader>tj", "<CMD>ToggleTerm direction=horizontal<CR>"),
-      -- set("n", "<leader>tl", "<CMD>ToggleTerm direction=vertical<CR>"),
+      set("n", "<leader>tt", "<CMD>ToggleTerm direction=float<CR>"),
     })
   end
 }
