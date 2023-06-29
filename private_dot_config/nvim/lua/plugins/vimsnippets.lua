@@ -1,3 +1,7 @@
 return {
-  "honza/vim-snippets"
+  "honza/vim-snippets",
+
+  config = function ()
+    require("vim-snippets").setup({})
+  end
 }
