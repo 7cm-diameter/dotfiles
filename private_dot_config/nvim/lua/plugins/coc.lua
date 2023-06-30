@@ -21,7 +21,7 @@ return {
     set("i", "<C-m>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
     -- set("i", "<C-l>", "<Plug>(coc-snippets-expand)")
 
-    set("n", "gn", "<Plug>(coc-diagnostic-prev)", { silent = true })
-    set("n", "gp", "<Plug>(coc-diagnostic-next)", { silent = true })
+    set("n", "gn", "<Plug>(coc-diagnostic-next)", { silent = true })
+    set("n", "gp", "<Plug>(coc-diagnostic-prev)", { silent = true })
   end
 }
