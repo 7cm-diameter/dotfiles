@@ -15,7 +15,7 @@ opt.cursorcolumn = true
 opt.swapfile = false
 opt.wrap = true
 opt.list = true
-opt.listchars = { tab = ">>", trail = "-", nbsp = "+" }
+opt.listchars = { tab = ">>", trail = "-", nbsp = "+", space = "⋅", eol = "↴"}
 opt.tabstop = 2
 opt.softtabstop = 2
 opt.shiftwidth = 2
