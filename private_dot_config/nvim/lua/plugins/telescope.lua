@@ -11,6 +11,7 @@ return {
   config = function()
     local builtin = require("telescope.builtin")
     local actions = require("telescope.actions")
+    local fb_actions = require("telescope").extensions.file_browser.actions,
 
     set("n", "<leader>ff", builtin.find_files)
     set("n", "<leader>fl", builtin.current_buffer_fuzzy_find)
@@ -36,7 +37,13 @@ return {
         },
 
         mappings = {
-          n = { ["q"] = actions.close },
+          n = {
+            ["q"] = actions.close,
+            ["l"] = actions.select_default,
+            ["h"] = fb_actions.goto_parent_dir,
+            ["."] = fb_actions.toggle_hidden,
+            ["cd"] = fb_actions.change_cwd,
+          },
           i = {
             ["<C-k>"] = {
               actions.move_selection_previous,
@@ -87,5 +94,6 @@ return {
     }
 
     require("telescope").load_extension("coc")
+    require("telescope").load_extension("file_browser")
   end,
 }
