@@ -51,6 +51,10 @@ return {
             },
             ["<C-j>"] = actions.move_selection_next,
             ["<C-q>"] = actions.close,
+            ["<C-l>"] = actions.select_default,
+            ["<C-h>"] = fb_actions.goto_parent_dir,
+            ["<C-.>"] = fb_actions.toggle_hidden,
+            ["<C-c><C-d>"] = fb_actions.change_cwd,
           }
         },
 
