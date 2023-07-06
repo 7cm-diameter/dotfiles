@@ -1,4 +1,5 @@
 {
+  "bufferline.nvim": { "branch": "main", "commit": "2f391fde91b9c3876eee359ee24cc352050e5e48" },
   "coc.nvim": { "branch": "master", "commit": "2a0e5546ac287398b6ec52d425a5cbecbb72e37e" },
   "diffview.nvim": { "branch": "main", "commit": "b3a763f8c7810b352226c95faa7d3ac9fb93b8d9" },
   "gitsigns.nvim": { "branch": "main", "commit": "3ef12dfdc293969fac736a7a580d6ae1f57ea406" },
@@ -10,6 +11,7 @@
   "nvim-treesitter": { "branch": "master", "commit": "e3330c67f1296b8fc42f652e95515e35c25bce1f" },
   "nvim-web-devicons": { "branch": "master", "commit": "14b3a5ba63b82b60cde98d0a40319d80f25e8301" },
   "plenary.nvim": { "branch": "master", "commit": "36aaceb6e93addd20b1b18f94d86aecc552f30c4" },
+  "symbols-outline.nvim": { "branch": "master", "commit": "512791925d57a61c545bc303356e8a8f7869763c" },
   "telescope-coc.nvim": { "branch": "master", "commit": "a1aaabdb3b546f63d24f1fd156dfb1ddc0bc03de" },
   "telescope-file-browser.nvim": { "branch": "master", "commit": "acf2eade45563803afdd4e9873a8481bc98bd726" },
   "telescope.nvim": { "branch": "master", "commit": "00cf15074a2997487813672a75f946d2ead95eb0" },
