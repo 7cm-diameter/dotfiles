@@ -23,7 +23,7 @@ set("i", "<C-l>", "<RIGHT>")
 -- window
 set("n", "<leader>j", "<CMD>sp<CR>")
 set("n", "<leader>l", "<CMD>vs<CR>")
-set("n", "qq", "<CMD>q<CR>")
+set("n", "<leader>q", "<CMD>q<CR>")
 
 set("n", "<C-h>", "<C-w>h")
 set("n", "<C-j>", "<C-w>j")
