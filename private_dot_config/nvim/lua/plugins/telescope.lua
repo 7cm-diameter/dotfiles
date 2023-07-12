@@ -88,6 +88,7 @@ return {
 
       extensions = {
         coc = { prefer_location = false },
+        file_browser = { respect_gitignore = false }
       },
 
       -- settings for coc
