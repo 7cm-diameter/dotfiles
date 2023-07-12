@@ -5,7 +5,6 @@ end
 pyenv init - | source
 starship init fish | source
 
-alias fd "fdfind"
 alias v "nvim"
 alias e "exa"
 alias el "exa -l"
