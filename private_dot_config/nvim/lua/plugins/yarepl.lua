@@ -20,6 +20,8 @@ return {
         else
           return " R"
         end
+      elseif ft == "julia" then
+        return " julia"
       else
         return " fish"
       end
@@ -36,6 +38,7 @@ return {
         ipython = { cmd = 'poetry run ipython --no-autoindent', formatter = yarepl.formatter.bracketed_pasting },
         python = { cmd = 'poetry run python', formatter = yarepl.formatter.trim_empty_lines },
         R = { cmd = 'R', formatter = yarepl.formatter.trim_empty_lines },
+        julia = { cmd = 'julia', formatter = yarepl.formatter.trim_empty_lines },
         fish = { cmd = 'fish', formatter = yarepl.formatter.bracketed_pasting },
       },
 
