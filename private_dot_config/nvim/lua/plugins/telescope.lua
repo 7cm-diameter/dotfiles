@@ -11,7 +11,7 @@ return {
   config = function()
     local builtin = require("telescope.builtin")
     local actions = require("telescope.actions")
-    local fb_actions = require("telescope").extensions.file_browser.actions,
+    local fb_actions = require("telescope").extensions.file_browser.actions
 
     set("n", "<leader>ff", builtin.find_files)
     set("n", "<leader>fl", builtin.current_buffer_fuzzy_find)
