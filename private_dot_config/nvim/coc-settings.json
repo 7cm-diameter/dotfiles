@@ -2,12 +2,16 @@
   "snippets.ultisnips.pythonPrompt": false,
   "suggest.noselect": true,
   "suggest.preferCompleteThanJumpPlaceholder": false,
-  "suggest.echodocSupport": true,
   "diagnostic.level": "warning",
   "diagnostic.errorSign": "",
   "diagnostic.warningSign": "",
   "coc.preferences.messageLevel": "warning",
   "coc.preferences.extensionUpdateCheck": "weekly",
   "coc.preferences.useQuickfixForLocations": true,
-  "python.pythonPath": "./.venv/bin/python"
+  "coc.preferences.formatOnSave": false,
+  "python.pythonPath": "./.venv/bin/python",
+  "pyright.inlayHints.variableTypes": false,
+  "pyright.inlayHints.parameterTypes": false,
+  "pyright.inlayHints.functionReturnTypes": false,
+  "pyright.organizeimports.provider": "isort"
 }
